@@ -15,4 +15,5 @@ The tool compares 18 RunPod GPU options across:
 
 This analysis directly supported a final GPU recommendation by quantifying tradeoffs between budget constraints and performance tier.
 
-### Live dashboard: https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true
+### Live dashboard: 
+https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true
