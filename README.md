@@ -1,4 +1,4 @@
-gpu-selection-dashboard
+# gpu-selection-dashboard
 Developed an interactive Tableau dashboard to evaluate and recommend an optimal cloud GPU configuration for a startup ML workflow.
 
 ### Problem
@@ -34,5 +34,5 @@ The dashboard provided transparent justification for the final infrastructure de
 
 ### Live Dashboard
 
-View the interactive dashboard here:
-[🔗 https://public.tableau.com/app/profile/](https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true)
+View the interactive dashboard here: 
+https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true
