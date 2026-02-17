@@ -8,7 +8,7 @@ The tool compares 18 RunPod GPU options across:
 - Rank-based relative training performance
 - Performance-per-dollar tradeoffs
 
-### Key functionality includes:
+Key functionality includes:
 - Global VRAM eligibility filtering to enforce model memory constraints
 - Parameter-driven dynamic ranking by cost, speed, or memory
 - Cost vs performance visualization to identify Pareto-efficient options
