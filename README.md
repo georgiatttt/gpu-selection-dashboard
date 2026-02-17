@@ -36,11 +36,3 @@ The dashboard provided transparent justification for the final infrastructure de
 
 View the interactive dashboard here: 
 https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true
-
-
-
-### Technical Notes
-- Built in Tableau Public
-- Custom calculated fields for dynamic sorting
-- Parameter-driven filtering (VRAM threshold)
-- Rank normalization for relative speed scoring
