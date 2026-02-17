@@ -1,20 +1,38 @@
-# gpu-selection-dashboard
-Developed an interactive dashboard to evaluate and recommend a cloud GPU configuration for a startup ML workflow.
+gpu-selection-dashboard
+Developed an interactive Tableau dashboard to evaluate and recommend an optimal cloud GPU configuration for a startup ML workflow.
 
-The tool compares 18 RunPod GPU options across:
-- Hourly cost
-- VRAM capacity
-- Rank-based relative training performance
-- Performance per dollar tradeoffs 
+### Problem
+The team needed to select a RunPod GPU for model training under budget and VRAM constraints.
+The decision required balancing:
+- Hourly cost ($/hr)
+- VRAM capacity (GB)
+- Relative training speed
+- Performance-per-dollar tradeoffs
 
-Key functionality includes:
-- Global VRAM eligibility filtering to enforce model memory constraints
-- Dynamic ranking by cost, speed, or memory
-- Cost vs performance visualization to identify Pareto-efficient options
+I built a structured evaluation framework to quantify tradeoffs and justify a recommendation.
 
-This analysis directly supported a final GPU recommendation by quantifying tradeoffs between budget constraints and performance tier.
+### Solution
+I designed an interactive dashboard that:
+- Filters GPUs by minimum required VRAM (global constraint)
+- Dynamically ranks GPUs by cost, speed, or memory
+- Visualizes the cost vs. relative training speed tradeoff
+- Highlights Pareto-efficient options under different constraints
 
+The analysis compares 18 RunPod GPU configurations and allows stakeholders to adjust constraints in real time.
+
+### Outcome
+
+Using this framework, I recommended RTX4090 as the optimal balance of:
+- Sufficient VRAM for model size
+- Strong relative training performance
+- Cost efficiency within budget limits
+
+The dashboard provided transparent justification for the final infrastructure decision.
+
+### Dashboard Preview
 <img width="1470" height="921" alt="Screenshot 2026-02-17 at 2 05 36 PM" src="https://github.com/user-attachments/assets/c7092c72-e5f7-4745-a0ca-8cd1d92bb92c" />
 
-### Live dashboard: 
-https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true
+### Live Dashboard
+
+View the interactive dashboard here:
+[🔗 https://public.tableau.com/app/profile/](https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true)
