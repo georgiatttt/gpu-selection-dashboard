@@ -1,5 +1,5 @@
-# gpu-selection-dashboard
-Developed an interactive Tableau dashboard to evaluate and recommend an optimal cloud GPU configuration for a startup ML workflow.
+# GPU Selection Dashboard
+Developed an interactive Tableau dashboard to evaluate and recommend an optimal cloud GPU configuration for a startup ML training workflow.
 
 ### Problem
 The team needed to select a RunPod GPU for model training under budget and VRAM constraints.
@@ -22,10 +22,9 @@ The analysis compares 18 RunPod GPU configurations and allows stakeholders to ad
 
 ### Outcome
 
-Using this framework, I recommended RTX4090 as the optimal balance of:
+Using this framework, I recommended RTX 4090 as the optimal balance of:
 - Sufficient VRAM for model size
-- Strong relative training performance
-- Cost efficiency within budget limits
+- Strong relative training performance among lower-cost GPUs
 
 The dashboard provided transparent justification for the final infrastructure decision.
 
@@ -34,5 +33,4 @@ The dashboard provided transparent justification for the final infrastructure de
 
 ### Live Dashboard
 
-View the interactive dashboard here: 
-https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1?publish=yes&showOnboarding=true
+View the interactive dashboard here: https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1
