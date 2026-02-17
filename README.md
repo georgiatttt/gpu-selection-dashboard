@@ -33,4 +33,4 @@ The dashboard provided transparent justification for the final infrastructure de
 
 ### Live Dashboard
 
-View the interactive dashboard here: https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1
+https://public.tableau.com/app/profile/georgia.thomas2122/viz/GPUSelectionDashboard/Dashboard1
