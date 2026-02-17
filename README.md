@@ -1,16 +1,15 @@
 # gpu-selection-dashboard
-Developed an interactive decision-support dashboard to evaluate and recommend a cloud GPU configuration for a startup ML workflow.
+Developed an interactive dashboard to evaluate and recommend a cloud GPU configuration for a startup ML workflow.
 
 The tool compares 18 RunPod GPU options across:
-
 - Hourly cost
 - VRAM capacity
 - Rank-based relative training performance
-- Performance-per-dollar tradeoffs
+- Tradeoffs between cost and performance
 
 Key functionality includes:
 - Global VRAM eligibility filtering to enforce model memory constraints
-- Parameter-driven dynamic ranking by cost, speed, or memory
+- Dynamic ranking by cost, speed, or memory
 - Cost vs performance visualization to identify Pareto-efficient options
 
 This analysis directly supported a final GPU recommendation by quantifying tradeoffs between budget constraints and performance tier.
