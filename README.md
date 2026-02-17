@@ -1,7 +1,7 @@
 # gpu-selection-dashboard
-Developed an interactive dashboard to evaluate and recommend a cloud GPU configuration for a startup ML workflow.
-
 <img width="1470" height="921" alt="Screenshot 2026-02-17 at 2 05 36 PM" src="https://github.com/user-attachments/assets/c7092c72-e5f7-4745-a0ca-8cd1d92bb92c" />
+
+Developed an interactive dashboard to evaluate and recommend a cloud GPU configuration for a startup ML workflow.
 
 The tool compares 18 RunPod GPU options across:
 - Hourly cost
